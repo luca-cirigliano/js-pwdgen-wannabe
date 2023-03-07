@@ -5,8 +5,9 @@ his surname,
 his favourite colour, 
 at last show on the page the result '+23'
 using this writing format: namesurnamefavouritecolour23
+*/
 
-/* open the dialog window on the browser */
+//open the dialog window on the browser
 
  alert("main.js connect");
  
