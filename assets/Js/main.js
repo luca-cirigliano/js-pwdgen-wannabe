@@ -18,8 +18,8 @@ using this writing format: namesurnamefavouritecolour23
  
  //request for his surname
 
- let userSurname;
- userSurname = prompt("Qual'è il tuo Cognome?");
+
+ let userSurname = prompt("Qual'è il tuo Cognome?");
  console.log(userSurname);
  
  //request for his favourite colour
