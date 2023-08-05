@@ -7,32 +7,40 @@ at last show on the page the result '+23'
 using this writing format: namesurnamefavouritecolour23
 */
 
-//open the dialog window on the browser
+/*strumenti: 
+-prompt
+-const
+-let
+-document.getElementById
+*/
 
- alert("main.js connect");
- 
  // request for his name
 
- let userName = prompt("Qual'è il tuo Nome?");
+ const userName = prompt("Qual'è il tuo Nome?");
  console.log(userName);
  
  //request for his surname
 
 
- let userSurname = prompt("Qual'è il tuo Cognome?");
+ const userSurname = prompt("Qual'è il tuo Cognome?");
  console.log(userSurname);
  
  //request for his favourite colour
 
- let usercolor;
- usercolor = prompt("Qual'è il tuo Colore preferito?");
- console.log(usercolor);
+ const favourite_colour = prompt("Qual'è il tuo Colore preferito?");
+ console.log(favourite_colour);
+
+
+ console.log(userName);
+ console.log(userSurname);
+ console.log(favourite_colour);
  
  //show on the page the result adding '+23' at the end
 
- let result = userName + userSurname + usercolor + 23;
- console.log(result);
 
- let element = document.getElementById("result_display");
- console.log (element);
- element.innerHTML = result;
+ const result_display = document.getElementById("result_display");
+ console.log (result_display);
+ result_display.innerHTML =
+ `
+ ${userName + userSurname + favourite_colour + 23}
+ `;

@@ -1,0 +1,1 @@
+Semplice generatore di password utilizzando JavaScript
